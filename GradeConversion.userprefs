@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{47F6F98A-DAE6-4B52-8824-C4864729E8BB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GradeConversion/Program.cs">
+    <Files>
+      <File FileName="GradeConversion/Program.cs" Line="9" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GradeConversion PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
