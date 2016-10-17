@@ -13,34 +13,34 @@ namespace GradeConversion
 			input = Console.ReadLine();
 			percent = double.Parse(input);
 
-			if (percent <= 39) 
+			if (percent < 0)
+			{
+				Console.WriteLine("Not possible");
+			}
+			else if (percent <= 39)
 			{
 				Console.WriteLine("You got an F");
 			}
-
-			if (percent <= 49) 
+			else if (percent <= 49)
 			{
 				Console.WriteLine("You got a D");
 			}
-
-			if (percent <= 59) 
+			else if (percent <= 59)
 			{
 				Console.WriteLine("You got a C");
 			}
-
-			if (percent <= 69) 
+			else if (percent <= 69)
 			{
 				Console.WriteLine("You got a B");
 			}
-
-			if (percent <= 100)
+			else if (percent <= 100)
 			{
 				Console.WriteLine("You got an A");
 			}
-
-			else 
+			else
 			{
-				Console.WriteLine("A strange grade indeed");
+				Console.WriteLine("Not possible");
+			
 			}
 		}
 	}
